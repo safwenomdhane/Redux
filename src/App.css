@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+body{
+  font-family: Consolas,monaco,monospace; background: rgb(43,4,75);
+  background: linear-gradient(90deg, rgba(43,4,75,1) 21%, rgba(229,9,169,1) 100%);
+padding: 10% 15%;}
+button{height:35px;
+width: 75px;
+margin:5px;
+text-align: center;
+}
+.Done{ text-decoration: line-through;
+  color: lightgray;}
+.form-control{width: 100%;}
+.add{display: flex;}
+.container{
+  background-color: lightyellow;
+  display: flex;
+  justify-content: center;
+border-radius: 5px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+width: 80%;
+height:70px;
+margin:15px;
+padding: 10px;}
+
+  .container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.task{width:80%;
+margin: 5px;}
+  
+  /* Add some padding inside the card container */
+ 
